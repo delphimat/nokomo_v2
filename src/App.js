@@ -140,8 +140,6 @@ function App() {
     }
     )}
 
-
-    // Similaire à componentDidMount et componentDidUpdate :
     useEffect(() => {
         setFormInfo({
             priceMax: priceMin,
